@@ -1,0 +1,52 @@
+/* Importamos fuentes desde fonts.google.com */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;900&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+  padding: 10px;
+}
+
+h1 {
+  font-weight: 900;
+  color: #0a2ff1;
+  font-size: 80px;
+  margin-top: 0;
+}
+
+/* Justificamos el párrafo */
+div p {
+    text-align: justify;
+}
+
+/* Damos estilo a la lista con la clase estilo */
+.estilo {
+  font-weight: 400;
+  color: #04146c;
+  font-size: 40px;
+}
+
+/* Utilizamos flex */
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+}
+
+/* Damos un ancho a div img */
+div img {
+  width: 60%;
+}
+
+/* Aplicamos estilo al botón sugerencias */
+.btn {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  line-height: 50px;
+  background-color: #04146c;
+  color: white;
+  text-align: center;
+  position: fixed;
+  left: 79%;
+  top: 540px;
+}

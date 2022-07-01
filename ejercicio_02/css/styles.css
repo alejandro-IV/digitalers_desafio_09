@@ -1,0 +1,56 @@
+/* Importamos fuente de fonts.google.com.ar */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;900&display=swap');
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 120px;
+    color: #ffffff;
+}
+
+/* Estilos */
+input {
+    font-weight: 400;
+    width: 700px;
+    height: 50px;
+    padding: 1em;
+    font-size: 37px;
+    border-radius: 15px;
+    color: #414166;
+}
+
+/* Aplicamos position al section que contiene las clases video-container y container */
+section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* Aplicamos position al contenedor-video */
+.video-container {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    overflow: hidden;
+   
+}
+
+ .video-container video {
+    min-height: 100%;
+    min-width: 100%;
+    
+}
+
+/* Aplicamos flex al div con la clase container */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
